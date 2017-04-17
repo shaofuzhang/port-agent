@@ -7,6 +7,7 @@ import (
 	"sync"
 
 	"github.com/toolkits/file"
+	"time"
 )
 
 type PluginConfig struct {
@@ -47,6 +48,7 @@ type GlobalConfig struct {
 	Http      *HttpConfig      `json:"http"`
 	SmartAPI  string           `json:"smartapi"`
 	Port      []string 	   `json:"port"`
+	DialTimeout time.Duration  `json:"dialTimeOut"`
 }
 
 var (
