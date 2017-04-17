@@ -8,5 +8,6 @@
 .DS_Store
 *.iml
 *.idea
+smarteye-port-monitor
 /gitversion
 
