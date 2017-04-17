@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/port-agent/g"
+	"github.com/51idc/port-agent/g"
 )
 
 type SysInfo struct {
