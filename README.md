@@ -40,8 +40,8 @@ port agent
         "listen": ":1988",
         "backdoor": false
     },
-    "port": ["5678"]                                            // 指定IP或域名需要被探测的端口列表
-
+    "port": ["5678"]，                                            // 指定IP或域名需要被探测的端口列表
+    "dialTimeOut": 40                // 端口dailtimeout 单位秒 据golang文档For instance, TCP timeouts are often around 3 minutes.可自行修改
 }
 ```
 
