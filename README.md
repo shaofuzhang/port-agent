@@ -13,7 +13,7 @@ port agent
 {
     "debug": true,
     "hostname": "zsf-test-port",                           // endpoint
-    "ip": "192.168.6.9",                                   //需要被探测的ip(域名)
+    "ip": "192.168.6.9",                                   //需要被探测的ip或域名
     "plugin": {
         "enabled": false,
         "dir": "./plugin",
