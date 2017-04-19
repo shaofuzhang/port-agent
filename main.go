@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"flag"
 	"os"
-	"github.com/port-agent/g"
-	"github.com/port-agent/funcs"
-	"github.com/port-agent/cron"
-	"github.com/port-agent/http"
+	"github.com/51idc/port-agent/g"
+	"github.com/51idc/port-agent/funcs"
+	"github.com/51idc/port-agent/cron"
+	"github.com/51idc/port-agent/http"
 )
 
 func main() {
