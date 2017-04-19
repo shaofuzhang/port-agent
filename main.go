@@ -32,6 +32,7 @@ func main() {
 	g.InitRpcClients()
 	funcs.BuildMappers()
 	cron.Collect()
+
 	go http.Start()
 
 	select {}
