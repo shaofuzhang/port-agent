@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 	"time"
-	"github.com/51idc/port-agent/g"
+	"github.com/port-agent/g"
 )
 
 func PortMetrics() (L []*model.MetricValue) {
@@ -21,10 +21,10 @@ func port_dail(tcp_port string) int {
 	tcpaddr := g.IP() + ":" + tcp_port
 	// 40s time out
 	conn, err := net.DialTimeout("tcp", tcpaddr, g.Config().DialTimeout * time.Second)
+	log.Println("conn:", conn)
 	if err != nil {
 		log.Println("Port:" + tcp_port + ".DialTimeout error :", err)
 		return 0
 	}
-	conn.Close()
 	return 1
 }
