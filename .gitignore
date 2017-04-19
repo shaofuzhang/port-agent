@@ -9,5 +9,6 @@
 *.iml
 *.idea
 smarteye-port-monitor
+*.exe
 /gitversion
 
